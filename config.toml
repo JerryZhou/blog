@@ -1,6 +1,7 @@
 baseURL = "http://www.xlsd.info/"
 languageCode = "en-us"
 title = "Blog In Hell. JerryZhou"
+theme = "hugo-octopress"
 
 [Params]
   Author = "JerryZhou"
@@ -9,4 +10,5 @@ title = "Blog In Hell. JerryZhou"
   Github = "JerryZhou@outlook.com"
   Disqus = "Your Disqus."
   SyntaxHighlightTheme = "solarized_dark.min.css"
+  latestSize = 4 # Optional
   layoutReverse = true
