@@ -3,17 +3,87 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.xlsd.info/yes/no/</loc>
+    <lastmod>2017-06-08T16:35:33+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.xlsd.info/post/abc/xxx/</loc>
+    <lastmod>2017-06-08T16:34:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.xlsd.info/post/124/</loc>
+    <lastmod>2017-06-08T16:34:20+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.xlsd.info/</loc>
-    <priority>0</priority>
+    <lastmod>2017-06-08T15:21:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.xlsd.info/post/abc/</loc>
+    <lastmod>2017-06-08T14:38:16+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.xlsd.info/categories/</loc>
+    <lastmod>2017-06-08T16:35:33+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.xlsd.info/tags/</loc>
+    <lastmod>2017-06-08T16:35:33+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xlsd.info/categories/</loc>
+    <lastmod>2017-06-08T16:35:33+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xlsd.info/categories/development/</loc>
+    <lastmod>2017-06-08T14:38:16+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xlsd.info/tags/development/</loc>
+    <lastmod>2017-06-08T14:38:16+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xlsd.info/categories/golang/</loc>
+    <lastmod>2017-06-08T14:38:16+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xlsd.info/tags/golang/</loc>
+    <lastmod>2017-06-08T14:38:16+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xlsd.info/post/</loc>
+    <lastmod>2017-06-08T16:34:53+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xlsd.info/tags/</loc>
+    <lastmod>2017-06-08T16:35:33+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xlsd.info/yes/</loc>
+    <lastmod>2017-06-08T16:35:33+08:00</lastmod>
     <priority>0</priority>
   </url>
   

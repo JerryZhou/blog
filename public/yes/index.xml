@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yes on Blog In Hell</title>
+    <link>http://www.xlsd.info/yes/</link>
+    <description>Recent content in Yes on Blog In Hell</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Jun 2017 16:35:33 +0800</lastBuildDate>
+    
+	<atom:link href="http://www.xlsd.info/yes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>yes-or-no</title>
+      <link>http://www.xlsd.info/yes/no/</link>
+      <pubDate>Thu, 08 Jun 2017 16:35:33 +0800</pubDate>
+      
+      <guid>http://www.xlsd.info/yes/no/</guid>
+      <description>-yes -no -what</description>
+    </item>
+    
+  </channel>
+</rss>

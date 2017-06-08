@@ -1,32 +1,71 @@
 baseURL = "http://www.xlsd.info/"
 languageCode = "en-us"
-title = "Blog In Hell. JerryZhou"
+title = "Blog In Hell"
 theme = "hugo-octopress"
+# include content marked as draft
+buildDrafts = false
+# include content with publishdate in the future
+buildFuture = false
+# include content already expired
+buildExpired = false
+
+# Number of blog posts in each pagination page
+paginate = 6
+
+disqusShortname = "xlsd"
+
+[blackfriday]
+  hrefTargetBlank = true # open the external links in a new window
+  fractions = false
+
+[[menu.main]]
+  Name = "Blog"
+  URL = "/"
+  weight = -10
+
+[[menu.main]]
+  Name = "The other guy from Wham!"
+  URL = "https://www.google.com/search?q=andrew+ridgeley"
+  weight = -5
+
+[[menu.main]]
+  Name = "This theme - add link"
+  URL = "https://www.github.com"
+
+[[menu.sidebar]]
+    Name = "Google"
+    URL = "https://www.google.com"
+    weight = 0
+
+[[menu.sidebar]]
+    Name = "Hugo"
+    URL = "/categories/hugo/"
+    weight = 1
+
 
 [Params]
   Author = "JerryZhou"
   Birth = "November 9, 1986"
   DateForm = "Mon, Jan 2, 2016"
-  Github = "JerryZhou@outlook.com"
-  Disqus = "Your Disqus."
   SyntaxHighlightTheme = "solarized_dark.min.css"
+
   latestSize = 4 # Optional
   layoutReverse = true
 
-# Number of blog posts in each pagination page
-paginate = 6
+  sidebarHeader = "Sidebar Header"
 
-[permalinks]
-# Configures post URLs
-post = "/blog/:year-:month-:day-:title/"
+  sidebarText = """Here's a [link to google](https://www.google.com)
+  </br>
+  Second line
+  </br>
+  Third line
+  This line has two spaces in the end to create a new line using markdown  
+  Forth line
+  """
+  github = "https://github.com/jerryzhou/"
 
-# Make tags and categories work
-[indexes]
-    tag = "tags"
-    category = "categories"
-
-[params]
-
+  sidebarMenuEnabled = true
+  sidebarRecentLimit = 4
     # If false, all of blog post will appear on front page (and in pagination)
     truncate = true
 
@@ -45,12 +84,12 @@ post = "/blog/:year-:month-:day-:title/"
     # Google analytics code - remove if you do not have/want Google Analytics - needs JavaScript
     googleAnalytics = "UA-XXXXX-X"
 
-  # Switch to true to enable RSS icon link
+    # Switch to true to enable RSS icon link
     rss = true
 
-  # Set to true to use a text label for RSS instead of an icon
-  # This is overwritten by the "rss" setting
-  textrss = false
+    # Set to true to use a text label for RSS instead of an icon
+    # This is overwritten by the "rss" setting
+    textrss = false
 
     # Website's default description
     defaultDescription = ""
@@ -58,8 +97,18 @@ post = "/blog/:year-:month-:day-:title/"
     # Populate this with your own search keywords - these will appear in meta tags
     # defaultKeywords = ["keyword1" , "keyword2" , "keyword3" , "keyword4"]
 
-  # Set to true to hide ReadingTime on posts
-  disableReadingTime = false
+    # Set to true to hide ReadingTime on posts
+    disableReadingTime = false
 
-  # Set to true to disable downloading of remote Google fonts
-  disableGoogleFonts = false
+    # Set to true to disable downloading of remote Google fonts
+    disableGoogleFonts = false
+
+[permalinks]
+    # Configures post URLs
+    # post = "/blog/:year-:month-:day-:title/"
+
+# Make tags and categories work
+[indexes]
+    tag = "tags"
+    category = "categories"
+
