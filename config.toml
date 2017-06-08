@@ -1,3 +1,12 @@
-baseURL = "http://example.org/"
+baseURL = "http://www.xlsd.info/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Blog In Hell. JerryZhou"
+
+[Params]
+  Author = "JerryZhou"
+  Birth = "November 9, 1986"
+  DateForm = "Mon, Jan 2, 2016"
+  Github = "JerryZhou@outlook.com"
+  Disqus = "Your Disqus."
+  SyntaxHighlightTheme = "solarized_dark.min.css"
+  layoutReverse = true
